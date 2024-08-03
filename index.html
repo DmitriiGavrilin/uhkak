@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <!-- Стили -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Favicon -->
+
+    <title>Uhkak</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="header__menu">
+        <ul class="menu__list">
+            <li class="menu__link">
+                <a href="#!">Услуги
+                    <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.7856 5.22874L1.4221 0.982745C1.38693 0.947787 1.34519 0.92015 1.29927 0.901433C1.25335 0.882716 1.20418 0.87329 1.1546 0.873702C1.10502 0.874114 1.05601 0.884355 1.01041 0.903832C0.964811 0.92331 0.923528 0.951637 0.888949 0.987174C0.854371 1.02271 0.827183 1.06475 0.80896 1.11087C0.790736 1.15698 0.781839 1.20625 0.782783 1.25583C0.783727 1.3054 0.794493 1.3543 0.814458 1.39969C0.834424 1.44507 0.863192 1.48605 0.899098 1.52024L5.5241 6.02024C5.59411 6.08836 5.68792 6.12646 5.7856 6.12646C5.88327 6.12646 5.97709 6.08836 6.0471 6.02024L10.6721 1.52024C10.708 1.48605 10.7368 1.44507 10.7567 1.39969C10.7767 1.3543 10.7875 1.3054 10.7884 1.25583C10.7894 1.20625 10.7805 1.15698 10.7622 1.11087C10.744 1.06475 10.7168 1.02271 10.6822 0.987174C10.6477 0.951637 10.6064 0.92331 10.5608 0.903832C10.5152 0.884355 10.4662 0.874114 10.4166 0.873702C10.367 0.87329 10.3178 0.882716 10.2719 0.901433C10.226 0.92015 10.1843 0.947787 10.1491 0.982745L5.7856 5.22874Z"
+                              fill="white"/>
+                    </svg>
+                </a>
+            </li>
+            <li class="menu__link">
+                <a href="#!">Мероприятия
+                    <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.7856 5.22874L1.4221 0.982745C1.38693 0.947787 1.34519 0.92015 1.29927 0.901433C1.25335 0.882716 1.20418 0.87329 1.1546 0.873702C1.10502 0.874114 1.05601 0.884355 1.01041 0.903832C0.964811 0.92331 0.923528 0.951637 0.888949 0.987174C0.854371 1.02271 0.827183 1.06475 0.80896 1.11087C0.790736 1.15698 0.781839 1.20625 0.782783 1.25583C0.783727 1.3054 0.794493 1.3543 0.814458 1.39969C0.834424 1.44507 0.863192 1.48605 0.899098 1.52024L5.5241 6.02024C5.59411 6.08836 5.68792 6.12646 5.7856 6.12646C5.88327 6.12646 5.97709 6.08836 6.0471 6.02024L10.6721 1.52024C10.708 1.48605 10.7368 1.44507 10.7567 1.39969C10.7767 1.3543 10.7875 1.3054 10.7884 1.25583C10.7894 1.20625 10.7805 1.15698 10.7622 1.11087C10.744 1.06475 10.7168 1.02271 10.6822 0.987174C10.6477 0.951637 10.6064 0.92331 10.5608 0.903832C10.5152 0.884355 10.4662 0.874114 10.4166 0.873702C10.367 0.87329 10.3178 0.882716 10.2719 0.901433C10.226 0.92015 10.1843 0.947787 10.1491 0.982745L5.7856 5.22874Z"
+                              fill="white"/>
+                    </svg>
+                </a>
+            </li>
+            <li class="menu__link">
+                <a href="#!">Фото</a>
+            </li>
+            <li class="menu__link">
+                <a href="#!">Франшиза</a>
+            </li>
+            <li class="menu__link">
+                <a href="#!">Контакты</a>
+            </li>
+        </ul>
+    </div>
+    <a href="#!" class="header__logo logo">
+        <img src="images/logo.png" alt="Logo">
+    </a>
+    <div class="header__call">
+        <div class="call__number">+7(927)511-60-70</div>
+        <div class="call__button button button-light">Заказать звонок</div>
+        <a href="#!" class="vk__link">
+            <svg width="33" height="21" viewBox="0 0 33 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.793945 2.88905C0.793945 1.70858 1.61608 1.2426 2.62794 1.18047L7.3394 1.21154C7.62399 1.21154 7.87695 1.39793 7.97181 1.67751C9.04691 5.09467 10.375 7.2071 11.956 9.59911C12.0509 9.7855 12.209 9.8787 12.3671 9.8787C12.4936 9.8787 12.62 9.81657 12.7149 9.66124L12.8098 9.31953L12.8414 3.94527C12.8414 3.16864 12.4619 3.04438 11.5766 2.92012C11.2287 2.85799 11.0074 2.54734 11.0074 2.23669C11.0074 2.17456 11.0074 2.11243 11.039 2.0503C11.4817 0.714497 12.873 0.0310651 14.8335 0.0310651L16.6042 0C18.0588 0 19.3868 0.621302 19.3868 2.45414V9.50592C19.5133 9.59911 19.6398 9.66124 19.7979 9.66124C20.0509 9.66124 20.3671 9.50592 20.62 9.10207C22.2643 6.83432 24.1299 4.13166 24.3829 2.70266C24.3829 2.64053 24.4145 2.60947 24.4461 2.54734C24.7939 1.86391 25.6793 1.39793 26.0588 1.27367C26.122 1.2426 26.2169 1.21154 26.3434 1.21154H31.2445L31.5607 1.2426C32.0351 1.2426 32.3829 1.55325 32.541 1.83284C32.8256 2.26775 32.7623 2.73373 32.7939 2.92012V3.13757C32.3196 5.9645 29.0311 9.13314 27.6398 11.1834C27.4501 11.432 27.3552 11.6494 27.3552 11.8669C27.3552 12.0533 27.4501 12.2396 27.6082 12.426L32.2248 18.142C32.4777 18.4837 32.6042 18.8876 32.6042 19.2293C32.6042 20.2544 31.624 20.8447 30.6754 20.9379L30.1378 20.9689H25.3315C25.2366 20.9689 25.1734 21 25.0785 21C24.541 21 24.0983 20.7204 23.7821 20.4098C22.7702 19.1982 21.79 17.9556 20.8098 16.7441C20.62 16.4956 20.5568 16.4645 20.3671 16.3402C20.1457 17.2411 19.956 18.1731 19.7347 19.105L19.6398 19.6331C19.4817 20.1923 19.0706 20.7825 18.3117 20.9379L17.869 20.9689H14.7702C9.29987 20.9689 4.39869 13.3269 0.952048 3.78994C0.857186 3.54142 0.793945 3.1997 0.793945 2.88905ZM19.7979 10.9349C18.9758 10.9349 18.0588 10.4689 18.0588 9.59911V2.45414C18.0588 1.61538 17.6793 1.30473 16.6358 1.30473L14.8335 1.36686C13.8216 1.36686 13.2524 1.52219 12.7781 1.83284C13.5054 2.17456 14.1694 2.64053 14.1694 3.94527V9.41272C14.0746 10.5 13.1576 11.2145 12.2722 11.2145C11.6714 11.2145 11.1339 10.8728 10.8177 10.3136C9.39474 8.20118 8.19316 6.21302 7.14968 3.35503L6.86509 2.54734L2.65956 2.51627C2.09039 2.51627 2.15363 2.54734 2.15363 2.82692C2.15363 3.01331 2.18525 3.26183 2.21687 3.41716L2.8809 5.15681C6.32754 13.9172 10.6596 19.6642 14.7702 19.6642H17.9323C18.375 19.6642 18.3434 19.1361 18.4382 18.8254L19.039 16.0917C19.1655 15.8121 19.2603 15.5636 19.4817 15.3462C19.7347 15.0976 20.0192 15.0044 20.3038 15.0044C20.9046 15.0044 21.4738 15.4704 21.8532 15.9053L24.541 19.2604C24.7623 19.6021 24.952 19.6642 25.0785 19.6642H30.2959C30.8019 19.6642 31.2445 19.5089 31.2445 19.1982C31.2445 19.105 31.2129 18.9808 31.1497 18.8876L26.5647 13.2648C26.1853 12.7988 26.0271 12.3328 26.0271 11.8669C26.0271 11.3698 26.2169 10.8728 26.5331 10.4379C27.8611 8.48077 30.707 5.68491 31.371 3.38609L31.4659 2.98225C31.4343 2.82692 31.4343 2.70266 31.4026 2.54734H26.4382C26.122 2.6716 25.869 2.85799 25.6793 3.10651L25.4896 3.69675C24.7623 5.68491 22.7702 8.41864 21.3473 10.3136C20.873 10.7485 20.3354 10.9349 19.7979 10.9349Z"
+                      fill="white"/>
+            </svg>
+        </a>
+    </div>
+</header>
+
+<section class="services">
+    <div class="services__row">
+        <div class="services__card">
+            <div class="card__img">
+                <img src="images/row/1.png" alt="Card">
+            </div>
+            <div class="card__icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="48" height="48" rx="24" fill="url(#pattern0_155_122)"/>
+                    <defs>
+                        <pattern id="pattern0_155_122" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_155_122" transform="scale(0.0103093)"/>
+                        </pattern>
+                        <image id="image0_155_122" width="97" height="97"
+                               xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                </svg>
+            </div>
+            <div class="card__desc">
+                <h3 class="card__title">Гендер пати</h3>
+                <p class="card__price">От 2990 руб.</p>
+                <p class="card__text">Текст текст текст Текст текст текст Текст текст текст Текст текст текст</p>
+            </div>
+            <a href="#!" class="card__link"> <span>Подробнее</span>
+                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.375 7.5L9.8125 0.9375L8.88719 1.86281L13.8616 6.84375L0.625 6.84375V8.15625L13.8616 8.15625L8.88719 13.1372L9.8125 14.0625L16.375 7.5Z"
+                          fill="#242424"/>
+                </svg>
+            </a>
+        </div>
+        <div class="services__card services__card-small">
+            <div class="card__img">
+                <img src="images/row/2.jpeg" alt="Card">
+            </div>
+            <div class="card__icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="48" height="48" rx="24" fill="url(#pattern0_131_279)"/>
+                    <defs>
+                        <pattern id="pattern0_131_279" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_131_279" transform="scale(0.0103093)"/>
+                        </pattern>
+                        <image id="image0_131_279" width="97" height="97"
+                               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAABhCAYAAADGBs+jAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAbiSURBVHic7Zzrkeo6DIBl5hYT08R6C2G3FKAUQiF4m4BUg++PYzFC2IlfefzQN3Nm9oTEMZItS7IMgCAIgiAIgiAIgiAIgiAIgiAIgiAI06i1O5DKtesMAMBztzN4TTn3FbvfKfUHALB7Pi0AwGEY7Izdq2KzSkChO6WO/pKpbdMpdQYA+L3fT7VttWRTSrh2nfFCN4mP2Mj1lOetU+pvCwrZhBImhG8B/pmX3fNpc83KZb8/4d/KuWPoHqfUeU1lrKqEy35/igjGKufOAO1t+bXrzHO3M6H3rqWMVZQQG/lOqXPJaK/pR0ghSytjcSWERv/a5sD36QvIoFiyT4spITL6rXLuvAX3Mda/n8fje+53L6IE/wVvE7dZ6tvPrZgcF1g59z1nf2ZXQkAB1in1F/NUAryUg2AABhBfuFHIiLf9GNyZjwcC76R9nFMRsyqB239uZ3ut3Zzvz8ACAHDTyPv/83jMIq/ZlDClAPb5a21Av54vlA2xvv0kF5j3c441YjYl0FE+poAUL4SaFpo7ikHNFT5TI8jc/uYyixJ6rW/gR3Go01RBc01xDl2bSgRJv1Pr9WHXqiHEmxMDEP6yNI2ACbUl8EKzAPH0xRh09jilbnzhr6GpErj9DI02KoClAzRcBwA+vadELP5BXNtqmiqBjTBDRz3AerMAoSYkV4heaYZcMq1mw38tGgHwAnbvHqdy7thrfYR/I8jQz1dMU/zrSwaxYNMr0tZ2qNlM4O4o+9iwe2dPBSQwOZKvXWd6rW9UAU6pM+l/k9nQZCbQWUAW41MsVe2Uul32+0Uzpohy7uyUMr4fbyOZpTIMjySpo9FrbQHAtJgNTdxDdDljrh8JwKKbKgDLmSjqbuZA3Wlqompd1mol5AYyobQxY3LbkUXVLzDHlKLMkQ2lVz+Uc2ca6HFhE2VWRdLVSiCBV2kkGlRIbHQljuKkvuCmDv4/VpkR+46tZkPVmsDWgr+J2z8IpDJeCvHCsfwZn900Y+2m9oUGcBNY3y9z7TqDwj4Mg+21xncWrw1VSqDmoJE9NwDjZg0X/QbvSoYu5oHBYcErqLT9Whf19eJea8eDs1TmTpDVMpbyoLOu1F0tVkJI4Mq5Y4ki1kxlpEKFzcpovsg9RamM4oWZLlahnbJUt3Prs4DC0/Mhp6IkK1ykhFhaOOL22bHCrZK0dqgudal96am98hIvqUgJVNhccGPFVQCfKY3UWTDVLm2/dDbRiotYO4F+vFmCkvc3V0LsvilatYPk7NiRIgCT2idOTeBWtDBTrY/d93u/n34eD6Wc+x67d+yzXutbySbMlJNw2e9PTqmbUwrbN+Rju2SSMTtOuHbdR2JrCuLinQDevYvd82l/Hg8bem4kOn4rgxmJuo+91l+hkRk521BcjEaCyFB/R8k2R6mmqJaScsmRrG3UvuPftYt6TQqj+R5zC0rrVX/v91PIjCjnjqFA6jAMFv9VdrlKidlKoMIpjZBz3gGQ53EchiFoz1vuCU+RUpZDyVICH02lEfIYvL0Sl+8wDHZqd68VTCa2pI0sJYQ0PIciWuAVZ+m1lmUqdOuTf/+xA40hitcEOuW9F+JafEluimrSGDylnWsmQrB951h7WXvPyUrgNUUh21trd3nHa8tieDlk7ghFUPAh4VNzSZWeI4uq/QTvESicjvxLU1DAS27s002XEjBOicRFVjl3jsU4kLEGJSuBpWzfpnnMZLxlSP01L5RgUOTTB6ldSsVCwaIcKdvPOtBId+HGKJoJKdN6It9jnFKm13o0zzI2s+aEZQWSBV9q7ppV4FF6rW9A9oGpbWcpBpM6WtYiM41hSt5RqoSo8PzmP3YmOtIxJUxt6u75tEsGVSnECg44oTLQVOUle0e0ohkgvvqz40VRU3MYhmDVdmtKqkCo8EpNb45nV5M7+qi6pi/fSL1pDTblphbnspOVEEoFhKJl3EMosfMhbym3jSWJbefmzvCsmRBKBfhouenJlY1h+AUM3kLeX0k5ZEkWNWTrTCiHskFM6o2xUz24Ixdoy5bur2Qr4TAM9ufxUKGFB3NIl/3+VKEQW/jcbDx3O0xbuNimUU1BcHGc8Hu/ny77fbDcHa/1Wh9RWWucRSiFVFQAwOhBw6nURRJVwdrUYRCAt6KAI6YsSn9Aai5Ch0Mm0idNfxil6R5xwtmDGK+Ne/p8i/PCvGBLOfed+TsXb/1sKfxXn1o2Rpk6nZOBxT9CgRfNL3GXtlDQH++fQ/CUxU7TxwqsNsji5nK1n1/DUbuyYixA+Y8ctmITvwaJ8EJflrcxhc1a/AOFDbCtH6vdlBJyGIvQtyRgQRAEQRAEQRAEQRAEQRAEQRAEQRAEQWjJ/6bGg5IXk0XfAAAAAElFTkSuQmCC"/>
+                    </defs>
+                </svg>
+            </div>
+            <div class="card__desc">
+                <h3 class="card__title">Иглу на крыше</h3>
+                <p class="card__price">От 2990 руб.</p>
+                <p class="card__text">Текст текст текст Текст текст текст Текст текст текст Текст текст текст</p>
+            </div>
+            <a href="#!" class="card__link"> <span>Подробнее</span>
+                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.375 7.5L9.8125 0.9375L8.88719 1.86281L13.8616 6.84375L0.625 6.84375V8.15625L13.8616 8.15625L8.88719 13.1372L9.8125 14.0625L16.375 7.5Z"
+                          fill="#242424"/>
+                </svg>
+            </a>
+        </div>
+        <div class="services__card">
+            <div class="card__img">
+                <img src="images/row/3.jpeg" alt="Card">
+            </div>
+            <div class="card__icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="48" height="48" rx="24" fill="url(#pattern0_131_311)"/>
+                    <defs>
+                        <pattern id="pattern0_131_311" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_131_311" transform="scale(0.0103093)"/>
+                        </pattern>
+                        <image id="image0_131_311" width="97" height="97"
+                               xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                </svg>
+            </div>
+            <div class="card__desc">
+                <h3 class="card__title">Свидание на крыше</h3>
+                <p class="card__price">От 2990 руб.</p>
+                <p class="card__text">Текст текст текст Текст текст текст Текст текст текст Текст текст текст</p>
+            </div>
+            <a href="#!" class="card__link"> <span>Подробнее</span>
+                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.375 7.5L9.8125 0.9375L8.88719 1.86281L13.8616 6.84375L0.625 6.84375V8.15625L13.8616 8.15625L8.88719 13.1372L9.8125 14.0625L16.375 7.5Z"
+                          fill="#242424"/>
+                </svg>
+            </a>
+        </div>
+        <div class="services__card services__card-small">
+            <div class="card__img">
+                <img src="images/row/2.jpeg" alt="Card">
+            </div>
+            <div class="card__icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="48" height="48" rx="24" fill="url(#pattern0_131_279)"/>
+                    <defs>
+                        <pattern id="pattern0_131_279" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_131_279" transform="scale(0.0103093)"/>
+                        </pattern>
+                        <image id="image0_131_279" width="97" height="97"
+                               xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                </svg>
+            </div>
+            <div class="card__desc">
+                <h3 class="card__title">Иглу на крыше</h3>
+                <p class="card__price">От 2990 руб.</p>
+                <p class="card__text">Текст текст текст Текст текст текст Текст текст текст Текст текст текст</p>
+            </div>
+            <a href="#!" class="card__link"> <span>Подробнее</span>
+                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.375 7.5L9.8125 0.9375L8.88719 1.86281L13.8616 6.84375L0.625 6.84375V8.15625L13.8616 8.15625L8.88719 13.1372L9.8125 14.0625L16.375 7.5Z"
+                          fill="#242424"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="services__row">
+        <div class="services__card services__card-small">
+            <div class="card__img">
+                <img src="images/row2/1.jpeg" alt="Card">
+            </div>
+            <div class="card__icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="48" height="48" rx="24" fill="url(#pattern0_131_345)"/>
+                    <defs>
+                        <pattern id="pattern0_131_345" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_131_345" transform="scale(0.0103093)"/>
+                        </pattern>
+                        <image id="image0_131_345" width="97" height="97"
+                               xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                </svg>
+            </div>
+            <div class="card__desc">
+                <h3 class="card__title">Аренда ростовых букв</h3>
+                <p class="card__price">От 2990 руб.</p>
+                <p class="card__text">Текст текст текст Текст текст текст Текст текст текст Текст текст текст</p>
+            </div>
+            <a href="#!" class="card__link"> <span>Подробнее</span>
+                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.375 7.5L9.8125 0.9375L8.88719 1.86281L13.8616 6.84375L0.625 6.84375V8.15625L13.8616 8.15625L8.88719 13.1372L9.8125 14.0625L16.375 7.5Z"
+                          fill="#242424"/>
+                </svg>
+            </a>
+        </div>
+        <div class="services__card">
+            <div class="card__img">
+                <img src="images/row2/2.jpeg" alt="Card">
+            </div>
+            <div class="card__icon">
+                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.0488281" width="48" height="48" rx="24" fill="url(#pattern0_131_429)"/>
+                    <defs>
+                        <pattern id="pattern0_131_429" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_131_429" transform="scale(0.0103093)"/>
+                        </pattern>
+                        <image id="image0_131_429" width="97" height="97"
+                               xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                </svg>
+            </div>
+            <div class="card__desc">
+                <h3 class="card__title">Предложение руки и сердца</h3>
+                <p class="card__price">От 2990 руб.</p>
+                <p class="card__text">Текст текст текст Текст текст текст Текст текст текст Текст текст текст</p>
+            </div>
+            <a href="#!" class="card__link"> <span>Подробнее</span>
+                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.375 7.5L9.8125 0.9375L8.88719 1.86281L13.8616 6.84375L0.625 6.84375V8.15625L13.8616 8.15625L8.88719 13.1372L9.8125 14.0625L16.375 7.5Z"
+                          fill="#242424"/>
+                </svg>
+            </a>
+        </div>
+        <div class="services__card services__card-small">
+            <div class="card__img">
+                <img src="images/row2/1.jpeg" alt="Card">
+            </div>
+            <div class="card__icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="48" height="48" rx="24" fill="url(#pattern0_131_345)"/>
+                    <defs>
+                        <pattern id="pattern0_131_345" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_131_345" transform="scale(0.0103093)"/>
+                        </pattern>
+                        <image id="image0_131_345" width="97" height="97"
+                               xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                </svg>
+            </div>
+            <div class="card__desc">
+                <h3 class="card__title">Аренда ростовых букв</h3>
+                <p class="card__price">От 2990 руб.</p>
+                <p class="card__text">Текст текст текст Текст текст текст Текст текст текст Текст текст текст</p>
+            </div>
+            <a href="#!" class="card__link"> <span>Подробнее</span>
+                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.375 7.5L9.8125 0.9375L8.88719 1.86281L13.8616 6.84375L0.625 6.84375V8.15625L13.8616 8.15625L8.88719 13.1372L9.8125 14.0625L16.375 7.5Z"
+                          fill="#242424"/>
+                </svg>
+            </a>
+        </div>
+        <div class="services__card">
+            <div class="card__img">
+                <img src="images/row2/3.jpeg" alt="Card">
+            </div>
+            <div class="card__icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="48" height="48" rx="24" transform="matrix(-1 0 0 1 48 0)"
+                          fill="url(#pattern0_131_395)"/>
+                    <defs>
+                        <pattern id="pattern0_131_395" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_131_395" transform="scale(0.0103093)"/>
+                        </pattern>
+                        <image id="image0_131_395" width="97" height="97"
+                               xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                </svg>
+            </div>
+            <div class="card__desc">
+                <h3 class="card__title">Свидание в кинотеатре</h3>
+                <p class="card__price">От 2990 руб.</p>
+                <p class="card__text">Текст текст текст Текст текст текст Текст текст текст Текст текст текст</p>
+            </div>
+            <a href="#!" class="card__link"> <span>Подробнее</span>
+                <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.375 7.5L9.8125 0.9375L8.88719 1.86281L13.8616 6.84375L0.625 6.84375V8.15625L13.8616 8.15625L8.88719 13.1372L9.8125 14.0625L16.375 7.5Z"
+                          fill="#242424"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="advantages">
+    <div class="advantages__row">
+        <div class="advantages__desc desc">
+            <p class="subtitle">Немного о нас</p>
+            <h2 class="title">Создаём только <br> незабываемые впечатления</h2>
+        </div>
+        <div class="advantages__card">
+            <div class="advantages__img">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="80" height="80" fill="url(#pattern0_162_158)"/>
+                    <defs>
+                        <pattern id="pattern0_162_158" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_162_158" transform="scale(0.0125)"/>
+                        </pattern>
+                        <image id="image0_162_158" width="80" height="80"
+                               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAANNSURBVHic7ZttkqQgDIbf3dp7deZknT2ZzMl2fzQpMYKiRqDGPFWWCiGEdPgQbcBxHMdxHMdxHMdxHOcAv3obkMCZtFC4diKEj+P+VRxTlHcihI9TxEEc03KHlnssjLWzuLIsYXZkbZkfhVXjH+lEwjyOWSDd+TFI1FCSRlnJOhgPikLCOvomHJ9ZtZxlRJ/mT8O6/sYz4+OMgHkiQbz/zpR7Z/RwUv7Hw1h2X4k+YJ5Z02VK7mAs14uU3HelZQQCc8SFeB+Sa8rIh0zaW8kyOo6FPRwIzN05JVSUZwAvfJyY09Gc343rexnokHFSxsZgoPM0LR1IyXW4oOdKWXNaRyDhugN0ebqob2gI+V2Vq+hZmw10nuLuCMyNU5aDf9iVuJnWXRiwabRMJPJjWExOp7jbgd/J+Qt20cdRn66nOS3XgQG2XS5gHk8t9Q4Hw35LnmA7KQ2P9SboIzdVGXYP/8NEXo9ZmC+Wp3ge4lm4NRZb8bnd7cfAuDZ2EQbqvr24EoWPjj6BcS6KHjnzlmAcc+JR+UeQ7qbQhhxXynWh19dZjPXbthDP6XNtTuYLNhDmH+SFz7IoFGSHgrH+4qr0Vo4xvwa1fHRLbRhiX7EWxuwEueYkn7CMDEnTZa44Udug6xgOxjrqgGVU0UZ5vXTRuninvLal5KipkN4FRl03SWUoo6e0dCm9gJ8ysgIlcqW87g5k5BtEMT/XgLQMJ+niPN0oUrKE/NcNevtsaxHefYFOWDaAC3JcyJd0ySs5D9hvbFpedGwtwks2NUMMqDVirxtt6ZK6puR+Sg5S+rQj9/Q1h3B8kcvIdzFJL3XBNF/XXXL8ViSn+mptN4UuGMDIN1534dxBSofcp/bsddsrtptxdeAlbI+bki+HzmeshwJCORpzMnTYakN6T/uMbcfrdMk7Ml7fhhjS04FiA1fKMwZxnjBCN2DUOUTketu7gFGeMXvYUCNDt1t0EMJ6rcVoayhj+SPKIenDdNktCOVHKWpQP6u692bioSG0cSZje8PCsq4id+5IUzy/sW5MiOdvlHeBA9ZOf2V0iazoKum7hVZb+hTPb3V/FvkqIaDzNnzPf6xT4fqF9fd+QZ0dx3Ecx3Ecx3Ecx3Ecx3Ga8x9xL7I0FMh0fgAAAABJRU5ErkJggg=="/>
+                    </defs>
+                </svg>
+            </div>
+            <h3 class="advantages__title">12 лет на рынке Волгограда</h3>
+            <p class="advantages__text">На протяжении 12 лет
+                мы стараемся радовать наших клиентов организацией лучших событий в их жизни</p>
+        </div>
+    </div>
+    <div class="advantages__row">
+        <div class="advantages__card">
+            <div class="advantages__img">
+                <svg width="81" height="80" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.5" width="80" height="80" fill="url(#pattern0_162_182)"/>
+                    <defs>
+                        <pattern id="pattern0_162_182" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_162_182" transform="scale(0.0125)"/>
+                        </pattern>
+                        <image id="image0_162_182" width="80" height="80"
+                               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAPKSURBVHic7ZvbkeMgEEXvbG0ACkC5DI7MODLjXByAM5j9ABbxkhoMEhr3qVLZ1oOGq6YbkAwwDMMwDMMwDMMwDMMwzGn46lr6NIto3+uputr07QoAqqfd9gLqyl+hK59DAXjg9ZSNbWJXu2gp4DRLuEYA9s4DD/NdLI4tz7tVNyi+WdbmLTjTHm9jtynTLDDNd0zzj/kUxOuk2X7MJitt1lxbZ7c5LSpSWoYW4Of/DatF270fJ6LfcNGwvLwovnjv2/TtyiblFRqleUBZt043pod4FLtdsA3JH7cxahmnXLdbq2iuW/USL7ZbVP6fCkPSfAsznRMOuMPPjLfFBgDX7B1/PS/mGpcxlzb7jSNd3bqS72Iy8DKxUU4+hrruKhc26xMGlUovLDGQjhXbYtihQ3hdPq75Q6N94pOrT6eblSo8JUI8TkvFQZG9Pt4v+zQoga03kfIYqGcWS2zMuOD1VEYEGwMVgMtis3FQnzPN0sS0S1CWnbuqivq9i46FxG78l1xsLu5pMW6BeIAV1EeZ6wAt1hXTrMy1CoDu7u46fbOOmXIJEG5gjQfGhboGCvOZEi88P/S6OAu+ntJk5fbkPMzV+7u1QRnFBj9Tlg9GwwF5YfypJtUW/zg5kdR4oDUikvtLups+V8F57mO17AGpF9ChzOc36oK+DdoSttv0X3Rt1j1rZiLCfBPBEYE4Q2+jxbrBrevFM5xjILWlREC18bu+4TpZfJlNVpdDRyDXW7rPha3nuW52Nb/lGCu8GziBch5mjytKcXQB0+ldwY7dzoMwnypzvGMcDifb3eeOHdhetC0aipV2YRvnBIBlAhC7zldrWVuK8493rUS8mNp9GagBlN5SsXBRk0RSk+2dFiPfIpwy+uz8TOSeWNYa1wsp08xdY3m4YuzvGyuh0J72HfJkLva4vRYDqAwrnjYce5zdNwLUR69bTxi7ctjd2yAlnn0TwT/vwDcTXCXGEjEvXm6fPKCWAaNk4OWTPLdvcPGA9ceT+9mPuyPVG4fgqGFM7u2udfHGSHQRe9/dvHgpbzy2l5DZS8SlHbc6lBP0JOJZeoq4He9OLp6lh4jb8W5tv2hWj91oKWJKpPgdHJE5XyTLPAUtRCzpsqHNU4tnqfWG0i7rHxtsnPcupSLmzl8Xb4C5bU+of2lITbVy2Xfr2K+D8uJkuK647nXb5f1K1jzGTwKUeHfyTFvLuoj3Vc/6tcmilDUhUl71UfGOCrUrfmy8o7CVoT8+3lFIeVj4d1qGQPo/JvLoap0L7rIMwzAMwzAMwzAMMyT/AM7bYt1wmpOwAAAAAElFTkSuQmCC"/>
+                    </defs>
+                </svg>
+            </div>
+            <h3 class="advantages__title">Более 5000 проведённых мероприятий</h3>
+            <p class="advantages__text">Наши клиенты обращаются к нам снова и снова. Меняется только повод:
+                романтические свидания, предложения руки и сердца, свадьба, рождение ребенка</p>
+        </div>
+        <div class="advantages__card">
+            <div class="advantages__img">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="80" height="80" fill="url(#pattern0_162_184)"/>
+                    <defs>
+                        <pattern id="pattern0_162_184" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_162_184" transform="scale(0.0125)"/>
+                        </pattern>
+                        <image id="image0_162_184" width="80" height="80"
+                               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAJ2SURBVHic7ZprktsgEIR7kxwkN9nxyYxP5vFJkps4PwQlMgVIPGSZ3f6qVEgDGmbbw8N4AUIIIYQQQgghhBBCCDmW+9kBjOLH2QHMDgXshAJ2QgE7OVNAObHvaREAz+hyZwYzI3cswoXyeW448xHEA5bse4JDuYpn4nJnBtTLzxf1IwD++HsF8Ndfv33dh7eTDPHQtThMPJRfuY15ZOzqS3lNGGN5hYCSsN0x+dwXOGMjLZg021Lwq1wnFLATCtjJSAEd5tkYOywLmfQ6+tXrwCMArv4+lG6Q79E4rDEKlk18M6MyMAR0Mc+tOCwZMiRLDJ++vEV9nYqgfEgQ6l3lc3zVxFITa/eJ0IgMFF+Gbxpq7LWEP+6C/VnisApT+sUvjIybKbf8ZxkxB4YhEYJQY68hFk8jX6V51UX1ijXLSnObFuqqGJWBamyK9gzUhL9S31csmfSB7awV4zu0afmwARy3D8wdHGwhCZvzpV2YBEvGKv4Xy3nb1diD71RsqX530SvgVsdb9TF2ddzyZ+ezmIdpE6Mbz1WMysDWjIsRX2qi7mbaBDRq77BmnEu8Y98NPDbqi4wSUDN2qXw35yfl1/r+RDrj9sTQzNFDeBRqnkvDN+B82bxA7GGWwwT1Za0YivVDPkTIdxOwdi7Vwf6qeTcB9yJ4k1/xRgkoGbvufH9vu1YEB2Vjr4Da8U48Jx0+1Ap0zY1HDeGtoBTlFfRIJGPXFmejMjAnmGbsF7Tt/3rI9SE9/deexjosYkmmPgQiiWdFmVwb25cW+s8Rx5Gzqbl/4IDDVof0Pwh9xUuGKEYIIYQQQgghhBBCCCGEEEIIIYR8Z/4BbdnIXn0/61AAAAAASUVORK5CYII="/>
+                    </defs>
+                </svg>
+            </div>
+            <h3 class="advantages__title">Лучшие локации в городе</h3>
+            <p class="advantages__text">Наши площадки находятся
+                на самых видовых местах Волгорада, что позволяет расмотреть город
+                с его лучшими достопримечательностями</p>
+        </div>
+        <div class="advantages__card">
+            <div class="advantages__img">
+                <svg width="81" height="80" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.5" width="80" height="80" fill="url(#pattern0_162_181)"/>
+                    <defs>
+                        <pattern id="pattern0_162_181" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_162_181" transform="scale(0.0125)"/>
+                        </pattern>
+                        <image id="image0_162_181" width="80" height="80"
+                               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAPdSURBVHic7ZzdkdwgDMf/l0kbqWW1NaScPJxu0lVelmsij+kgNSQPh+IvgW0sQHfhN+PBi7GQhYSxwQsMBoPBYDAYDAaDwQAgAA8Af5SNu2mV4Km3AisIb8YLAF5Xx27x+D0ed8Hn3gqsoJi+QjcSxU071gVvHgi8hWoOVzp/6q2AwhOAF0xeJukdzowH+FGIZult9ntNwNQ3BjgI5Z4GJADP2BorxHR+E7mtzpsj3hrwn0BYDlMemG4OZ2Rw3FwPcywhbI1mBWPZKGwoO0uLECZMoRqwvEHkzqHZ75DYX8MxfcYHCW3GMa9gbMMxt+158NF6XcPIXyxD78M4UZ4w9X1aH6qVl3J8TvX+MKaLyx2Xi6NEuUdGBrA0Uq6h3pURGWmF5djRC5KyexDy3pbTyRUM24vggvIpzy+pvymEtPIt+yLRQ/Nc0YMa6HEaUS6Vzw11Iew3pisYupF63gUpUbfk525OzdEU5UT+WejCuSkdJP+KbDMY25Ag2BhvbxhzBE7o4sYLU6FroZxVf6XJITjwQkZdxawaguHUC2t6n7UsxraxL3v4lVf6rORR3F4uyK0Nz/ZFT2qvRqUWVeRZhljtiDlFiz7F+uIYxo1uOStHMfUcvgLN9i+FcakBpbJQeH4vOKZkJdDSgFqeBYS6nXyY1XMayxC+wc54hOVY8gG75+mA5TSpoOXtUmrAXGXS8XOhbGAy3BNsJr4IlV5llRpwvXKqNgGFHhIhTLOCISG/iBqrs+6GsmQIQxflMqaIYFxrjAWWfaClVzImg73i2FzyUTTjEQr1t/ZAMpQV8A6GSaUeGGJKyjEtzxOE5WCfrgi7GsLzyoOS5w3K5IVmWkS0517X04bQn3tZyWuCK2UOkmr04hcWV0JY7lo0ywsx5Qtya0Ex1fq/1uPaf5WnWtSjF2qvxhidu51cGHNrZTIQ9Me47o1NyM+7esGl9wm5KUNurYwCw6n3CYS6KxOuQAkdOJHfjdSrIkb/tTHaEKX7fPAagq8lZaJPbnVWS30OwfCxPlD08BYRh2CkFRQjngmdbwC+F9Sv1ZHTzRUMuzXSvwD8PlHnXr2u+r0cuZCl2XG5KErI+QHgZ6YenslJ9WtS5t0YT2DkFSdsDSmTURS3LwC+zn4ztkaTPI2WfW8VGPshS8j/T4K27c360YF6TWjxrRzj7ds14Nj3a5TYD6s0dS7F+gJs51K6w6jnFYROX2v2gLENRSqURTh+Q6pCzy/WGVNoC+uVXWH1W8rTqky3UPXwnwmEySA37HtQiKn8NUpIFWyBBwNqUCI/NNRhMBgMBoPBYDAYDAYfk79rI55DB4Ir7wAAAABJRU5ErkJggg=="/>
+                    </defs>
+                </svg>
+            </div>
+            <h3 class="advantages__title">Оперативность</h3>
+            <p class="advantages__text">Нам поступают запросы по организации мероприятия день
+                в день, мы прикладываем максимум усилий для решения этих задач</p>
+        </div>
+    </div>
+</section>
+
+<section class="works">
+    <div class="works__desc desc">
+        <p class="subtitle">Немного о нас</p>
+        <h2 class="title">Портфолио</h2>
+    </div>
+    <div class="works__row">
+        <div class="works__img">
+            <img src="images/portfolio/1.jpeg" alt="Work">
+        </div>
+        <div class="works__img">
+            <img src="images/portfolio/1.jpeg" alt="Work">
+        </div>
+        <div class="works__img works__img-small">
+            <img src="images/portfolio/2.jpeg" alt="Work">
+        </div>
+        <div class="works__img">
+            <img src="images/portfolio/1.jpeg" alt="Work">
+        </div>
+    </div>
+    <div class="works__row">
+        <div class="works__img">
+            <img src="images/portfolio/1.jpeg" alt="Work">
+        </div>
+        <div class="works__img">
+            <img src="images/portfolio/1.jpeg" alt="Work">
+        </div>
+        <div class="works__img works__img-small">
+            <img src="images/portfolio/2.jpeg" alt="Work">
+        </div>
+        <div class="works__img">
+            <img src="images/portfolio/1.jpeg" alt="Work">
+        </div>
+    </div>
+    <button class="works__button button button-red">Посмотреть больше фото</button>
+</section>
+
+<section class="form">
+    <div class="form__col">
+        <h2 class="form__title">Оставьте заявку на предполагаемую дату мероприятия</h2>
+        <div class="form__card">
+            <div class="form__img">
+                <svg width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="98" height="98" fill="url(#pattern0_166_250)"/>
+                    <defs>
+                        <pattern id="pattern0_166_250" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_166_250" transform="scale(0.0102041)"/>
+                        </pattern>
+                        <image id="image0_166_250" width="98" height="98"
+                               xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                </svg>
+            </div>
+            <p class="form__text">
+                -Бронь дат происходит каждый день и лучше всего это делать заранее чтобы ваша дата не была занята
+            </p>
+        </div>
+        <div class="form__card">
+            <div class="form__img">
+                <svg width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="98" height="98" fill="url(#pattern0_166_251)"/>
+                    <defs>
+                        <pattern id="pattern0_166_251" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_166_251" transform="scale(0.0102041)"/>
+                        </pattern>
+                        <image id="image0_166_251" width="98" height="98" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGIAAABiCAYAAACrpQYOAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAUoSURBVHic7Z1rct0gDIV9uzJ2FrIykpWpP+qkXFkSEi9jW99MZpoYiYMOYJskzbY5juM4juM4juM4juM4Th9eszoCgLBtW9i27ev1en3N6tfZ/hUfABLQxDP0zO7zdAAgMgZgwsD+ozARYL8WbmmQsAqSYE7s2L92ApCm9NJxKrsJhyLjATLFigP6fp4hnAmFmITah459JyAmARGHNfzG12g5FaYQRSP22GYzUI6qAgK9SlPt5DgFxoQpZhCTIKGPCIYbMmOIWs9pUEWsKSw0zOrCRMCkkh5mDNGiaSrE7AnZNZMZQMxsgw5pr6825TJmlER2MOOQUxGPP37eJSSj2H6sY5gOvK+GKLSzmsGusk66pfccsi/crqeeZrTFAuKJSpE7L9SQgQuGRMUYDm1Ow1hY0/5PtA9KTT9bUf4hPjGB8uWSaHdocwoWI/b2VjOSoa32WCNRpoDyKQn3oxn3cGoEWWYVNs6QU2UIk0tjhkr/NJDoYIhT34w1fRBFzrek0gnsISehL0rXteMeRq0RRKw0261GiDpAeR5W0gfKJ8YpoEGZn2xAcQ9AAw6KNr/5JFNwoRkz2Ou4T8u4h4DEBmNs8clIO1iisEVDCANjQR++vtSqyAtQsyqkIxLTQKFwpE0ZIvVPXddemw6eNZU53swE+uYajJq4J6lDHigYjuKjcE2tcQjQcNPe46kbKDt4Y27ty5pUbO2qqNbZBWi8aRM5upiAcicpr1Rs4npEudm46aBBhsocQ48QFMWuMmo1I3qsiqZlDu/H3oFpk5TFPvTPTTZo3Jq70yIIGpY48G/OidKB2kSUh9XAGbWiEdWrAg1SFQv678oFoS92myHiyPGBsMpOo1ZUpRGYBPQPsR3yQeXspgwsxZwCVG4xYFxNRLED0Ya9juOzr5eMOBhYM94p1M6QUmGzdsWjEaIdtSpynVGjHRuBtWjHSvGnJZjhO/v3hyHuUxkX8piGH/H/Ljd55/V6xezTj23bcoM/t9XQzu5CXGTaqB9zpRWB+6M+V/TfZTUMAypuvntccdsB5danMQzr1GqG49Maq+N0aoWWBgnKG7vSCO5opah3jyXzLoVlhlljUdEicV18OZPaWrUuDzHbQkNsRNcP51Lw/4gjSbFMf1U6L0NpZhdixUNAouAUkc5O9hcs+i4FMbODMV58cSOuV5nwCFpWBRHPmfFz8JfA8LsQj6J1Vew5RDMcJXgLqYinHjPDAKn3p8MW5Wb0oNMWRZkR+6u9Ob32eiJP7Kv0AbRuUVmewxtxy1YF79/zjrc3l9heepphXh1Q/parKd+lIMyIDbmqzSB0SFRrXBqigLExH57VCey/spWg/DsVTTqXZIAZqtUByu0R5J+jbdK6HJPMABBmekPeJq3L0dsMJqeEqj8hZ2jVuwxXMUPI26x3GUaYsefN3w9+T2eh4cXwiWYkGLj0W81vMXN5Zs+2DmaI38C6NDD5gK+zGbf8AYRpS59ZicEQn2riLgNRoGEzjjEjKmPvbcS2zb1vQOW2iDSGEdqWYKYZNf3lK2KUpmUA/tg6DupPfdaUXxyhZUksBZrRH7o+RMOyCMUZUgzgj8ffvta738tQMqS3KbMnwOUoFChNMqRrH5fmZxXMmLW4n155b8dIQ4jcTfkewQhD3IQGhG0rWYoJE/6T4EcgGBILcYcXykmS742wZUWi7dSj+UcibVfUKtgJZ+u+LUzBKYPC2Vpvj7BdDduKpv2JzCuCiu5/2tNxHMdxHMdxHMdxluUvO9N2BQdQzhsAAAAASUVORK5CYII="/>
+                    </defs>
+                </svg>
+            </div>
+            <p class="form__text">
+                -Мы оперативно свяжемся с вами и уточним все нюансы и раскажем детали
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="team">
+    <div class="team__desc desc">
+        <p class="subtitle">Немного о нас</p>
+        <h2 class="title">Наша команда</h2>
+    </div>
+    <div class="team__row">
+        <div class="team__card">
+            <div class="team__img">
+                <img src="images/team/1.jpeg" alt="Employee">
+            </div>
+            <a href="#!" class="team__social">
+                <svg width="33" height="21" viewBox="0 0 33 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.793945 2.88905C0.793945 1.70858 1.61608 1.2426 2.62794 1.18047L7.3394 1.21154C7.62399 1.21154 7.87695 1.39793 7.97181 1.67751C9.04691 5.09467 10.375 7.2071 11.956 9.59911C12.0509 9.7855 12.209 9.8787 12.3671 9.8787C12.4936 9.8787 12.62 9.81657 12.7149 9.66124L12.8098 9.31953L12.8414 3.94527C12.8414 3.16864 12.4619 3.04438 11.5766 2.92012C11.2287 2.85799 11.0074 2.54734 11.0074 2.23669C11.0074 2.17456 11.0074 2.11243 11.039 2.0503C11.4817 0.714497 12.873 0.0310651 14.8335 0.0310651L16.6042 0C18.0588 0 19.3868 0.621302 19.3868 2.45414V9.50592C19.5133 9.59911 19.6398 9.66124 19.7979 9.66124C20.0509 9.66124 20.3671 9.50592 20.62 9.10207C22.2643 6.83432 24.1299 4.13166 24.3829 2.70266C24.3829 2.64053 24.4145 2.60947 24.4461 2.54734C24.7939 1.86391 25.6793 1.39793 26.0588 1.27367C26.122 1.2426 26.2169 1.21154 26.3434 1.21154H31.2445L31.5607 1.2426C32.0351 1.2426 32.3829 1.55325 32.541 1.83284C32.8256 2.26775 32.7623 2.73373 32.7939 2.92012V3.13757C32.3196 5.9645 29.0311 9.13314 27.6398 11.1834C27.4501 11.432 27.3552 11.6494 27.3552 11.8669C27.3552 12.0533 27.4501 12.2396 27.6082 12.426L32.2248 18.142C32.4777 18.4837 32.6042 18.8876 32.6042 19.2293C32.6042 20.2544 31.624 20.8447 30.6754 20.9379L30.1378 20.9689H25.3315C25.2366 20.9689 25.1734 21 25.0785 21C24.541 21 24.0983 20.7204 23.7821 20.4098C22.7702 19.1982 21.79 17.9556 20.8098 16.7441C20.62 16.4956 20.5568 16.4645 20.3671 16.3402C20.1457 17.2411 19.956 18.1731 19.7347 19.105L19.6398 19.6331C19.4817 20.1923 19.0706 20.7825 18.3117 20.9379L17.869 20.9689H14.7702C9.29987 20.9689 4.39869 13.3269 0.952048 3.78994C0.857186 3.54142 0.793945 3.1997 0.793945 2.88905ZM19.7979 10.9349C18.9758 10.9349 18.0588 10.4689 18.0588 9.59911V2.45414C18.0588 1.61538 17.6793 1.30473 16.6358 1.30473L14.8335 1.36686C13.8216 1.36686 13.2524 1.52219 12.7781 1.83284C13.5054 2.17456 14.1694 2.64053 14.1694 3.94527V9.41272C14.0746 10.5 13.1576 11.2145 12.2722 11.2145C11.6714 11.2145 11.1339 10.8728 10.8177 10.3136C9.39474 8.20118 8.19316 6.21302 7.14968 3.35503L6.86509 2.54734L2.65956 2.51627C2.09039 2.51627 2.15363 2.54734 2.15363 2.82692C2.15363 3.01331 2.18525 3.26183 2.21687 3.41716L2.8809 5.15681C6.32754 13.9172 10.6596 19.6642 14.7702 19.6642H17.9323C18.375 19.6642 18.3434 19.1361 18.4382 18.8254L19.039 16.0917C19.1655 15.8121 19.2603 15.5636 19.4817 15.3462C19.7347 15.0976 20.0192 15.0044 20.3038 15.0044C20.9046 15.0044 21.4738 15.4704 21.8532 15.9053L24.541 19.2604C24.7623 19.6021 24.952 19.6642 25.0785 19.6642H30.2959C30.8019 19.6642 31.2445 19.5089 31.2445 19.1982C31.2445 19.105 31.2129 18.9808 31.1497 18.8876L26.5647 13.2648C26.1853 12.7988 26.0271 12.3328 26.0271 11.8669C26.0271 11.3698 26.2169 10.8728 26.5331 10.4379C27.8611 8.48077 30.707 5.68491 31.371 3.38609L31.4659 2.98225C31.4343 2.82692 31.4343 2.70266 31.4026 2.54734H26.4382C26.122 2.6716 25.869 2.85799 25.6793 3.10651L25.4896 3.69675C24.7623 5.68491 22.7702 8.41864 21.3473 10.3136C20.873 10.7485 20.3354 10.9349 19.7979 10.9349Z" fill="white"/>
+                </svg>
+            </a>
+            <h4 class="team__position">Должность</h4>
+            <h3 class="team__name">Имя Фамилия</h3>
+        </div>
+        <div class="team__card">
+            <div class="team__img">
+                <img src="images/team/2.jpeg" alt="Employee">
+            </div>
+            <a href="#!" class="team__social">
+                <svg width="33" height="21" viewBox="0 0 33 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.793945 2.88905C0.793945 1.70858 1.61608 1.2426 2.62794 1.18047L7.3394 1.21154C7.62399 1.21154 7.87695 1.39793 7.97181 1.67751C9.04691 5.09467 10.375 7.2071 11.956 9.59911C12.0509 9.7855 12.209 9.8787 12.3671 9.8787C12.4936 9.8787 12.62 9.81657 12.7149 9.66124L12.8098 9.31953L12.8414 3.94527C12.8414 3.16864 12.4619 3.04438 11.5766 2.92012C11.2287 2.85799 11.0074 2.54734 11.0074 2.23669C11.0074 2.17456 11.0074 2.11243 11.039 2.0503C11.4817 0.714497 12.873 0.0310651 14.8335 0.0310651L16.6042 0C18.0588 0 19.3868 0.621302 19.3868 2.45414V9.50592C19.5133 9.59911 19.6398 9.66124 19.7979 9.66124C20.0509 9.66124 20.3671 9.50592 20.62 9.10207C22.2643 6.83432 24.1299 4.13166 24.3829 2.70266C24.3829 2.64053 24.4145 2.60947 24.4461 2.54734C24.7939 1.86391 25.6793 1.39793 26.0588 1.27367C26.122 1.2426 26.2169 1.21154 26.3434 1.21154H31.2445L31.5607 1.2426C32.0351 1.2426 32.3829 1.55325 32.541 1.83284C32.8256 2.26775 32.7623 2.73373 32.7939 2.92012V3.13757C32.3196 5.9645 29.0311 9.13314 27.6398 11.1834C27.4501 11.432 27.3552 11.6494 27.3552 11.8669C27.3552 12.0533 27.4501 12.2396 27.6082 12.426L32.2248 18.142C32.4777 18.4837 32.6042 18.8876 32.6042 19.2293C32.6042 20.2544 31.624 20.8447 30.6754 20.9379L30.1378 20.9689H25.3315C25.2366 20.9689 25.1734 21 25.0785 21C24.541 21 24.0983 20.7204 23.7821 20.4098C22.7702 19.1982 21.79 17.9556 20.8098 16.7441C20.62 16.4956 20.5568 16.4645 20.3671 16.3402C20.1457 17.2411 19.956 18.1731 19.7347 19.105L19.6398 19.6331C19.4817 20.1923 19.0706 20.7825 18.3117 20.9379L17.869 20.9689H14.7702C9.29987 20.9689 4.39869 13.3269 0.952048 3.78994C0.857186 3.54142 0.793945 3.1997 0.793945 2.88905ZM19.7979 10.9349C18.9758 10.9349 18.0588 10.4689 18.0588 9.59911V2.45414C18.0588 1.61538 17.6793 1.30473 16.6358 1.30473L14.8335 1.36686C13.8216 1.36686 13.2524 1.52219 12.7781 1.83284C13.5054 2.17456 14.1694 2.64053 14.1694 3.94527V9.41272C14.0746 10.5 13.1576 11.2145 12.2722 11.2145C11.6714 11.2145 11.1339 10.8728 10.8177 10.3136C9.39474 8.20118 8.19316 6.21302 7.14968 3.35503L6.86509 2.54734L2.65956 2.51627C2.09039 2.51627 2.15363 2.54734 2.15363 2.82692C2.15363 3.01331 2.18525 3.26183 2.21687 3.41716L2.8809 5.15681C6.32754 13.9172 10.6596 19.6642 14.7702 19.6642H17.9323C18.375 19.6642 18.3434 19.1361 18.4382 18.8254L19.039 16.0917C19.1655 15.8121 19.2603 15.5636 19.4817 15.3462C19.7347 15.0976 20.0192 15.0044 20.3038 15.0044C20.9046 15.0044 21.4738 15.4704 21.8532 15.9053L24.541 19.2604C24.7623 19.6021 24.952 19.6642 25.0785 19.6642H30.2959C30.8019 19.6642 31.2445 19.5089 31.2445 19.1982C31.2445 19.105 31.2129 18.9808 31.1497 18.8876L26.5647 13.2648C26.1853 12.7988 26.0271 12.3328 26.0271 11.8669C26.0271 11.3698 26.2169 10.8728 26.5331 10.4379C27.8611 8.48077 30.707 5.68491 31.371 3.38609L31.4659 2.98225C31.4343 2.82692 31.4343 2.70266 31.4026 2.54734H26.4382C26.122 2.6716 25.869 2.85799 25.6793 3.10651L25.4896 3.69675C24.7623 5.68491 22.7702 8.41864 21.3473 10.3136C20.873 10.7485 20.3354 10.9349 19.7979 10.9349Z" fill="white"/>
+                </svg>
+            </a>
+            <h4 class="team__position">Должность</h4>
+            <h3 class="team__name">Имя Фамилия</h3>
+        </div>
+        <div class="team__card">
+            <div class="team__img">
+                <img src="images/team/3.jpeg" alt="Employee">
+            </div>
+            <a href="#!" class="team__social">
+                <svg width="33" height="21" viewBox="0 0 33 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.793945 2.88905C0.793945 1.70858 1.61608 1.2426 2.62794 1.18047L7.3394 1.21154C7.62399 1.21154 7.87695 1.39793 7.97181 1.67751C9.04691 5.09467 10.375 7.2071 11.956 9.59911C12.0509 9.7855 12.209 9.8787 12.3671 9.8787C12.4936 9.8787 12.62 9.81657 12.7149 9.66124L12.8098 9.31953L12.8414 3.94527C12.8414 3.16864 12.4619 3.04438 11.5766 2.92012C11.2287 2.85799 11.0074 2.54734 11.0074 2.23669C11.0074 2.17456 11.0074 2.11243 11.039 2.0503C11.4817 0.714497 12.873 0.0310651 14.8335 0.0310651L16.6042 0C18.0588 0 19.3868 0.621302 19.3868 2.45414V9.50592C19.5133 9.59911 19.6398 9.66124 19.7979 9.66124C20.0509 9.66124 20.3671 9.50592 20.62 9.10207C22.2643 6.83432 24.1299 4.13166 24.3829 2.70266C24.3829 2.64053 24.4145 2.60947 24.4461 2.54734C24.7939 1.86391 25.6793 1.39793 26.0588 1.27367C26.122 1.2426 26.2169 1.21154 26.3434 1.21154H31.2445L31.5607 1.2426C32.0351 1.2426 32.3829 1.55325 32.541 1.83284C32.8256 2.26775 32.7623 2.73373 32.7939 2.92012V3.13757C32.3196 5.9645 29.0311 9.13314 27.6398 11.1834C27.4501 11.432 27.3552 11.6494 27.3552 11.8669C27.3552 12.0533 27.4501 12.2396 27.6082 12.426L32.2248 18.142C32.4777 18.4837 32.6042 18.8876 32.6042 19.2293C32.6042 20.2544 31.624 20.8447 30.6754 20.9379L30.1378 20.9689H25.3315C25.2366 20.9689 25.1734 21 25.0785 21C24.541 21 24.0983 20.7204 23.7821 20.4098C22.7702 19.1982 21.79 17.9556 20.8098 16.7441C20.62 16.4956 20.5568 16.4645 20.3671 16.3402C20.1457 17.2411 19.956 18.1731 19.7347 19.105L19.6398 19.6331C19.4817 20.1923 19.0706 20.7825 18.3117 20.9379L17.869 20.9689H14.7702C9.29987 20.9689 4.39869 13.3269 0.952048 3.78994C0.857186 3.54142 0.793945 3.1997 0.793945 2.88905ZM19.7979 10.9349C18.9758 10.9349 18.0588 10.4689 18.0588 9.59911V2.45414C18.0588 1.61538 17.6793 1.30473 16.6358 1.30473L14.8335 1.36686C13.8216 1.36686 13.2524 1.52219 12.7781 1.83284C13.5054 2.17456 14.1694 2.64053 14.1694 3.94527V9.41272C14.0746 10.5 13.1576 11.2145 12.2722 11.2145C11.6714 11.2145 11.1339 10.8728 10.8177 10.3136C9.39474 8.20118 8.19316 6.21302 7.14968 3.35503L6.86509 2.54734L2.65956 2.51627C2.09039 2.51627 2.15363 2.54734 2.15363 2.82692C2.15363 3.01331 2.18525 3.26183 2.21687 3.41716L2.8809 5.15681C6.32754 13.9172 10.6596 19.6642 14.7702 19.6642H17.9323C18.375 19.6642 18.3434 19.1361 18.4382 18.8254L19.039 16.0917C19.1655 15.8121 19.2603 15.5636 19.4817 15.3462C19.7347 15.0976 20.0192 15.0044 20.3038 15.0044C20.9046 15.0044 21.4738 15.4704 21.8532 15.9053L24.541 19.2604C24.7623 19.6021 24.952 19.6642 25.0785 19.6642H30.2959C30.8019 19.6642 31.2445 19.5089 31.2445 19.1982C31.2445 19.105 31.2129 18.9808 31.1497 18.8876L26.5647 13.2648C26.1853 12.7988 26.0271 12.3328 26.0271 11.8669C26.0271 11.3698 26.2169 10.8728 26.5331 10.4379C27.8611 8.48077 30.707 5.68491 31.371 3.38609L31.4659 2.98225C31.4343 2.82692 31.4343 2.70266 31.4026 2.54734H26.4382C26.122 2.6716 25.869 2.85799 25.6793 3.10651L25.4896 3.69675C24.7623 5.68491 22.7702 8.41864 21.3473 10.3136C20.873 10.7485 20.3354 10.9349 19.7979 10.9349Z" fill="white"/>
+                </svg>
+            </a>
+            <h4 class="team__position">Должность</h4>
+            <h3 class="team__name">Имя Фамилия</h3>
+        </div>
+    </div>
+</section>
+
+<section class="questions">
+    <div class="questions__title">Остались вопросы?</div>
+    <button class="questions__button button button-light">Получить консультацию</button>
+</section>
+
+<footer class="footer">
+    
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
